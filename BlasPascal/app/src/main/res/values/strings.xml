@@ -16,4 +16,8 @@
     <string name="fontBoton">Sign in</string>
     <string name="LogIn">LOGIN</string>
 
+    <string name="title_activity_bienvenido">Bienvenido</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
 </resources>
