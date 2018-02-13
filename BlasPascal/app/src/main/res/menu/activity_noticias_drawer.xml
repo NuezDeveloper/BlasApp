@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/study"
+            android:title="Alumno" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/newspaper"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/notepad"
+            android:title="Recordatorios" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/dollar"
+            android:title="Financiero" />
+    </group>
+
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/icon"
+                android:title="Info" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/shut"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>
