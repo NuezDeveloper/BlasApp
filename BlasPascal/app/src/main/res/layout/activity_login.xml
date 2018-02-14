@@ -24,6 +24,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="78dp"
+            android:layout_marginTop="30dp"
             app:srcCompat="@drawable/logo" />
 
         <TextView
@@ -40,6 +41,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_marginTop="100dp"
             android:text="NOMBRE"
             android:textColor="@android:color/background_light"
@@ -49,6 +51,7 @@
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:ems="10"
             android:textColor="@android:color/background_light"
             android:textColorLink="@color/fondoBoton"
@@ -58,6 +61,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:text="CONTRASEÑA"
             android:textColor="@android:color/background_light"
             android:textSize="15sp" />
@@ -66,6 +70,7 @@
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:ems="10"
             android:inputType="textPersonName|textPassword"
             android:textColor="@android:color/background_light"
@@ -76,6 +81,7 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:layout_marginTop="30dp"
             android:background="@drawable/botonlogin"
             android:text="@string/fontBoton"
