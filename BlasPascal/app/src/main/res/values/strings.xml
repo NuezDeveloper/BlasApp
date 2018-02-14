@@ -25,5 +25,10 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="bienvenido_jesus_alonso">Bienvenido Jesus Alonso</string>
+    <string name="seleccione_a_su_hijo">Seleccione a su hijo</string>
+    <string name="luisito">Luisito</string>
+    <string name="marianita">Marianita</string>
+    <string name="todo">TODO</string>
 
 </resources>

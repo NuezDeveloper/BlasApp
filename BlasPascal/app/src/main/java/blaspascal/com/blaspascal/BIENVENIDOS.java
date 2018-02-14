@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 
@@ -14,6 +15,9 @@ ImageButton btnh1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bienvenidos);
         btnh1 = (ImageButton) findViewById(R.id.btn3);
+        getSupportActionBar().hide();
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         btnh1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

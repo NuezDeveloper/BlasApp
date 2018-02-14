@@ -8,12 +8,12 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/bgs">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/background_light"
             android:orientation="vertical"
             tools:context="blaspascal.com.blaspascal.Bienvenido">
 
@@ -28,9 +28,9 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50px"
+                android:layout_marginTop="50dp"
                 android:fontFamily="@font/raleway"
-                android:text="Bienvenido Jesus Alonso"
+                android:text="@string/bienvenido_jesus_alonso"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
@@ -39,9 +39,8 @@
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50px"
                 android:fontFamily="@font/raleway"
-                android:text="Seleccione a su hijo"
+                android:text="@string/seleccione_a_su_hijo"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
@@ -53,13 +52,14 @@
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="50dp"
                 android:background="@null"
+                android:contentDescription="@string/todo"
                 app:srcCompat="@drawable/icono" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Luisito"
+                android:text="@string/luisito"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
                 android:textSize="20sp" />
@@ -77,7 +77,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Marianita"
+                android:text="@string/marianita"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light"
                 android:textSize="20sp" />
