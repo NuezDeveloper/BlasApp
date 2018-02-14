@@ -32,6 +32,7 @@
                 android:fontFamily="@font/raleway"
                 android:text="Bienvenido Jesus Alonso"
                 android:textAlignment="center"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <TextView
@@ -42,6 +43,7 @@
                 android:fontFamily="@font/raleway"
                 android:text="Seleccione a su hijo"
                 android:textAlignment="center"
+                android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
             <ImageButton
@@ -59,6 +61,7 @@
                 android:layout_height="wrap_content"
                 android:text="Luisito"
                 android:textAlignment="center"
+                android:textColor="@android:color/background_light"
                 android:textSize="20sp" />
 
             <ImageButton
@@ -76,6 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="Marianita"
                 android:textAlignment="center"
+                android:textColor="@android:color/background_light"
                 android:textSize="20sp" />
 
         </LinearLayout>
